@@ -3,16 +3,16 @@ using namespace std;
 
 int main()
 {
-    long long n;
+    long long N;
 
-    cin >> n;
-    long long a[n];
+    cin >> N;
+    long long a[N];
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < N; i++)
         cin >> a[i];
 
     long long mini_ops = INT_MAX;
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < N; i++)
         mini_ops = min(mini_ops, abs(a[i]));
 
     cout << mini_ops << endl;
