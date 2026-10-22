@@ -16,9 +16,9 @@ int main()
 
         for (int i = 0; i < n; i++)
         {
-            int x;
-            cin >> x;
-            frequency_map[x]++;
+            int X;
+            cin >> X;
+            frequency_map[X]++;
         }
 
         if (frequency_map.size() > 2)
