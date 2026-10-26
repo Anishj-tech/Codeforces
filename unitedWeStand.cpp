@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    long long t;
+    int t;
     cin >> t;
     while (t--)
     {
@@ -48,3 +48,4 @@ int main()
     }
     return 0;
 }
+// tle
